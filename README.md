@@ -1,7 +1,7 @@
 # C#-Best-Secure-coding-practices
 15 Best Coding Practices to Observe while Coding
 
-## 1. Field OR variable naming👌
+## 1. Variable naming👌
 
 **All your field and vairables should be named according to the value it stores** 
 ***Example***:
@@ -16,9 +16,9 @@ string user = Console.ReadLine();
 This particular example above convey the actual information stored in this field... 
 **It always advisable to name your field and variables accordingly, this helps in code maintenance and readability.**
 
-## 2. Class Naming 👓👓👓🕶
+## 2. Class Naming 
 
-**Naming classes depending on what operation it perform or values it stores is a best coding practice as it gives other developers clear knowledge of what you are doing. It does promote code maintenance and readability.**
+**You name classes depending on what operation it performs or values it stores, this the best coding practice as it gives anyone reading your codes clear knowledge of what you are doing. It also promotes code maintenance and readability.**
 
 ```C#
 ///<summary>
@@ -54,7 +54,7 @@ public static class CalculateAge
 ///All the variables in the code is named accordingly on what value it holds. This gives a clear understanding of your code.
 </ summary >
 ```
-**BELOW IS THE BAD PRACTICE OF THE ABOVE CODE😃😃
+**Example of the BAD PRACTICE of the above code
 ```c#
 ///<summary>
 /// This cod below gives clear illustration on how you can name classes appropriately.
@@ -86,7 +86,7 @@ public static class ClcA
     }
 }
 ///<summary>
-///All the variables in the code is not named according to what value it holds.
+///Variables in the code are not named according to what value it holds.
 ///</summary>
 ```
 
@@ -113,7 +113,7 @@ public class helloworld
 ///</summary>
 ```
 
-## 4. 👏👏While comparing string, convert string variables into Upper or Lower case.👏👏
+## 4. While comparing string, convert string variables into Upper or Lower case.
 
 ```C#
 ///<summary>
@@ -143,9 +143,9 @@ if (firstName.ToUpper() == “YOGESH”) { }
 if (firstName == “rohit”) { }  
 ```
 
-## 5. Use 💖💖👍String.Empty👍💖💖 instead of 👏
+## 5. Use String.Empty instead of 
 
-“”👏
+“”
 ```C#
 ///<summary>
 ///Good Practice
@@ -169,7 +169,7 @@ if (firstName == “”) { }
 ///</summary>
 ```
 
-## 6. 🔥🔥Use enums wherever required. 🔥🔥Don’t use numbers or strings to indicate discrete values👏
+## 6. Use enums wherever required. Don’t use numbers or strings to indicate discrete values
 
 ```C#
 ///<summary>
@@ -231,7 +231,7 @@ public void LogException(string message, LoggerType loggerType)
 }  
 ```
 
-## 7. 👌😃👓🔥Always do null check for objects and complex objects before accessing them🤞✌💖😎
+## 7. Always do null check for objects and complex objects before accessing them
 
 ```C#
 ///<summary>
@@ -263,7 +263,7 @@ public Contact GetContactDetails(Address address)
 }  
 ```
 
-## 8. 🔥🔥Error🔥🔥 😃Message😎
+## 8. Error Message
 ```C#
 ///<summary>
 ///Error message to end use should be user friendly and self-explanatory but log the actual exception details using logger. Create constants for this and use them in application.
@@ -281,7 +281,7 @@ public Contact GetContactDetails(Address address)
 “There is an error in application.”  
 ```
 
-## 9. 🤞✌👓Use object initializers to simplify object creation.🤞✌💖
+## 9. Use object initializers to simplify object creation.
 
 ```C#
 ///<summary>
@@ -313,7 +313,7 @@ employee.Manager = “XYZ”;
 employee.Salary = 12346.25;  
 ```
 
-## 10. 🤞✌💖Always catch only the specific exception instead of catching generic exception🤞✌💖
+## 10. Always catch only the specific exception instead of catching generic exception
 
 ```C#
 ///<summary>
@@ -356,7 +356,7 @@ void ReadFile(string fileName)
 }  
 ```
 
-## 11. 👏👏Use Of Generics👏👏
+## 11. Use Of Generics
 
 ```C#
 ///<summary>
@@ -371,7 +371,7 @@ public class MyClass<T> where T : SomeOtherClass
 }  
 ```
 
-## 12. 👏💖👏Variable Differenciation 👏💖👏
+## 12. Variable Differenciation 
 ``` C#
 ///<summary>
 ///Variables or field name should not be diffrenciated with PasCal Or camelcase to avoid confusion or mistakes
@@ -381,7 +381,7 @@ public string userName { get; set}
 public string username { get; set}
 ```
 
-## 13. 🤞✌👓Do not use Underscores in Identifiers 🤞✌👓
+## 13. Do not use Underscores in Identifiers 
 
 ```C#
 ///<summary>
@@ -405,7 +405,7 @@ public TimeSpan time_Left;
 private DateTime _registrationDate;
 ```
 
-## 14. 💖👏Naming Interfaces 🤞✌
+## 14. Naming Interfaces 
 ```C#
 ///<summary>
 ///prefix interfaces with the letter I.  Interface names are noun (phrases) or adjectives
@@ -421,7 +421,7 @@ public interface IGroupable
 }
 ```
 
-## 15. 🤞✌👓 Enum Types 👓🤞✌
+## 15.  Enum Types
 
 ```C#
 ///<summary>
