@@ -143,7 +143,7 @@ if (firstName.ToUpper() == “YOGESH”) { }
 if (firstName == “rohit”) { }  
 ```
 
-## 5. Use String.Empty instead of 
+## 5. Use String.Empty instead of " "
 
 “”
 ```C#
