@@ -1,7 +1,7 @@
 # C#-Best-Secure-coding-practices
 15 Best Coding Practices to Observe while Coding
 
-## 1. Variable naming👌
+## 1. Variable naming
 
 **All your field and vairables should be named according to the value it stores** 
 ***Example***:
@@ -14,7 +14,7 @@ This code above is a bad practice because the field name does not convey the inf
 string user = Console.ReadLine();
 ```
 This particular example above convey the actual information stored in this field... 
-**It always advisable to name your field and variables accordingly, this helps in code maintenance and readability.**
+**It always advisable to name your fields and variables accordingly, this helps in code maintenance and readability.**
 
 ## 2. Class Naming 
 
@@ -293,10 +293,10 @@ public Contact GetContactDetails(Address address)
 ///<summary>
 var employee = new Employee
                {
-                   FirstName = “ABC”,
-                   LastName = “PQR”,
-                   Manager = “XYZ”,
-                   Salary = 12346.25
+                   FirstName = “Joshua”,
+                   LastName = “Nwaeze”,
+                   Manager = “Bezao”,
+                   Salary = 2500000
                };
 
 ///<summary>
@@ -307,10 +307,10 @@ var employee = new Employee
 ///Bad Practice
 ///<summary> 
 var employee = new Employee();
-employee.FirstName = “ABC”;
-employee.LastName = “PQR”;
-employee.Manager = “XYZ”;
-employee.Salary = 12346.25;  
+employee.FirstName = “Joshua”;
+employee.LastName = “Nwaeze”;
+employee.Manager = “Bezao”;
+employee.Salary = 2500000;  
 ```
 
 ## 10. Always catch only the specific exception instead of catching generic exception
@@ -433,10 +433,10 @@ public interface IGroupable
 ///<summary>
 public enum Direction : long
 {
-    North = 1,
-    East = 2,
-    South = 3,
-    West = 4
+    NorthEast= 1,
+    SouthEast = 2,
+    
+
 }
 
 ///<summary>
@@ -444,10 +444,10 @@ public enum Direction : long
 ///<summary>
 public enum Direction
 {
-    North,
-    East,
-    South,
-    West
+    NorthEast,
+    SoutEast,
+
+
 }
 
 ```
