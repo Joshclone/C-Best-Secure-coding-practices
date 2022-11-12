@@ -1,6 +1,5 @@
 # C#-Best-Secure-coding-practices
 15 Best Coding Practices to Observe while Coding
-# 👓🤷‍♀️🚗Best 15 Coding Practices with illlustration and XML Comments❤💕
 
 ## 1. Field OR variable naming👌
 
